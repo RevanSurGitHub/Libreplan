@@ -86,8 +86,14 @@ public class CreerProfilPage {
 	@FindBy(xpath ="//fieldset//tr[3]//tr[2]//img")
 	public WebElement boutonSupprimerRole3;
 	
-
 	
+	// Choix menu déroulant 1 
+	@FindBy(xpath="//td[contains(text(), 'importer des projets')]")
+	public WebElement choixMenuDeroulant1;
+
+	// Choix menu déroulant 2
+	@FindBy(xpath="//td[contains(text(), 'Unités de matériel')]")
+	public WebElement choixMenuDeroulant2;
 	
 	
 	public CreerProfilPage(WebDriver driver) {
