@@ -79,11 +79,13 @@ public class MenuHaut {
 	@FindBy(xpath="//tr[@class=\"ruta\"]/td[2]")
 	WebElement filDarianneDebut;
 	
+	// Fil d'arianne element 2 (onglet) 
+	@FindBy(xpath="//tr[@class='ruta']//td[4]/table[2]/tbody/tr/td/table/tbody//tr/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/span")
+	WebElement filDarianneNomDonglet;
 	
 	
-	// 2 eme element file d'arianne (nom de l'onglet)//tr[@class="ruta"]//td[4]/table[2]/tbody/tr/td/table/tbody//tr/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/span
-	
-	// 3 eme element file d'arianne (nom du sous menu) //tr[@class="ruta"]//td[4]/table[2]/tbody/tr/td/table/tbody//tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[3]/span
-	
+	// Fil d'arianne element 3 (sous menu)
+	@FindBy(xpath=" //tr[@class='ruta']//td[4]/table[2]/tbody/tr/td/table/tbody//tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[3]/span")
+	WebElement filDarianneNomSSMenu;
 	
 }
