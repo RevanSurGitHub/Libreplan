@@ -12,19 +12,19 @@ public class MenuHaut {
 	// ____________________ Onglet menu ___________________________________
 	
 	// Onglet calendrier 
-	@FindBy(xpath="//button[contains(text(), 'Calendrier ')]")
+	@FindBy(xpath="//button[contains(text(), 'Calendrier')]")
 	WebElement ongletCalendrierMenuHaut;
 	
 	// Onglet Ressources
-	@FindBy(xpath="//button[contains(text(), 'Ressources ')]")
+	@FindBy(xpath="//button[contains(text(), 'Ressources')]")
 	WebElement ongletRessourcesMenuHaut;
 	
 	// Onglet Coût
-	@FindBy(xpath="//button[contains(text(), 'Coût ')]")
+	@FindBy(xpath="//button[contains(text(), 'Coût')]")
 	WebElement ongletCoutMenuHaut;
 	
 	// Onglet configuration 
-	@FindBy(xpath="//button[contains(text(), 'Configuration ')]")
+	@FindBy(xpath="//button[contains(text(), 'Configuration')]")
 	WebElement ongletConfigurationMenuHaut;
 	
 	//_______________Sous menu _____________________________________________
