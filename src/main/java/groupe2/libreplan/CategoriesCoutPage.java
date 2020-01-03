@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class CategorieCout extends MenuHaut{
+public class CategoriesCoutPage {
 
 	// Pour constructeur
 	WebDriver driver ;
@@ -26,10 +26,9 @@ public class CategorieCout extends MenuHaut{
 	
 	
 	
-	public CategorieCout (WebDriver driver) {
+	public CategoriesCoutPage (WebDriver driver) {
         super();
         this.driver = driver;
         PageFactory.initElements(driver, this);
-    }	
+    }
 }
-
