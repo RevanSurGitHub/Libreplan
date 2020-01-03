@@ -39,10 +39,11 @@ public class SocleTechnique {
 		
 	}
 	
-	public static void RemplirLoginMdp (WebElement elementLogin, WebElement elementMdp, String Login, String Mdp)
+	public static void RemplirLoginMdp (WebElement elementLogin, WebElement elementMdp, WebElement boutonConnect, String Login, String Mdp)
 	{
 		RemplirChamp(elementLogin, Login);
 		RemplirChamp(elementMdp, Mdp);
+		boutonConnect.click();
 		
 	}
 	
