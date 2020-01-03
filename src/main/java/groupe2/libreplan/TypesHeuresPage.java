@@ -11,8 +11,12 @@ public class TypesHeuresPage extends MenuHaut {
 
 	// Pour constructeur
 	WebDriver driver;
+	
+	// Titre de la page : Types d'heures liste
+	@FindBy (xpath ="//div[@class=\"z-window-embedded-cnt-noborder\"]/div[1]//div[@class=\"z-window-embedded-header\"]")
+	WebElement titrePageTypes ;
 
-	// Bouton Créer un type d'heure
+	// Bouton : Créer un type d'heure
 	@FindBy(xpath = "//span[@class=\"create-button global-action z-button\"]//tbody//td[@class=\"z-button-cm\"]")
 	WebElement boutonCreerTypeHeure;
 
@@ -34,6 +38,10 @@ public class TypesHeuresPage extends MenuHaut {
 
 	// ________________________________________Formulaire Créer un Type d'Heures__________________________________________________________
 
+	// Titre de la page : Créer Type d'heures 
+	@FindBy (xpath = "//td[@class=\"z-caption-l\"]")
+	WebElement titrePageCreerType ;
+	
 	// Message d'erreur si 1 champ est vide
 	@FindBy(xpath = "//div[@class=\"z-errbox-right z-errbox-close\"]")
 	WebElement messageErreurChampVide;
@@ -42,7 +50,7 @@ public class TypesHeuresPage extends MenuHaut {
 	@FindBy(xpath = "//div[@title=\"Allez sur le mauvais champ\"]/div[@class=\"z-errbox-right z-errbox-close\"])")
 	WebElement messageErreurPrix;
 
-	// Champ Code Disabled
+	// Champ : Code Disabled
 	@FindBy(xpath = "//input[@class=\"z-textbox z-textbox-disd z-textbox-text-disd\"]")
 	WebElement champCodeDisabled;
 
@@ -50,31 +58,31 @@ public class TypesHeuresPage extends MenuHaut {
 	@FindBy(xpath = "//tr[@valign=\"top\"]//input[@class=\"z-textbox\"]")
 	WebElement champCode;
 
-	// Checkbox "Générer le code"
+	// Checkbox : Générer le code
 	@FindBy(xpath = "//tr[@valign=\"top\"]//input[@type=\"checkbox\"]")
 	WebElement cbGenererLeCode;
 
 	// Champ du Nom
-	@FindBy(xpath = "//tr[@class=\"z-row z-grid-odd\"]//input[@class=\"z-textbox\"]")
+	@FindBy(xpath = "//input[@class=\"z-textbox\"]")
 	WebElement champNom;
 
 	// Champ Prix par défaut VIDE
 	@FindBy(xpath = "//input[@class=\"z-decimalbox\"]")
 	WebElement champPrixParDefaut;
 
-	// Checkbox "Activé"
+	// Checkbox : Activé
 	@FindBy(xpath = "tr[@class=\"z-row z-grid-odd\"]//input[@type=\"checkbox\"]")
 	WebElement cbActive;
 
-	// Boutton Enregistrer
+	// Boutton : Enregistrer
 	@FindBy(xpath = "//td[contains(text(), \"Enregistrer\")]")
 	WebElement boutonEnregistrer;
 
-	// Boutton Sauver et continuer
+	// Boutton : Sauver et continuer
 	@FindBy(xpath = "//td[contains(text(), \"Sauver\")]")
 	WebElement boutonSauver;
 
-	// Boutton Annuler
+	// Boutton : Annuler
 	@FindBy(xpath = "//td[contains(text(), \"Annuler\")]")
 	WebElement boutonAnnuler;
 	
