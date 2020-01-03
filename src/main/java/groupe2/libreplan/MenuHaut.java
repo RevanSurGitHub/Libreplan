@@ -9,23 +9,26 @@ public class MenuHaut {
 	WebDriver driver;
 	
 	
-	//
+	// ____________________ Onglet menu ___________________________________
 	
 	// Onglet calendrier 
-	@FindBy(xpath="//button[contains(text(), 'Calendrier')]")
+	@FindBy(xpath="//button[contains(text(), 'Calendrier ')]")
 	WebElement ongletCalendrierMenuHaut;
 	
 	// Onglet Ressources
-	@FindBy(xpath="//button[contains(text(), 'Ressources')]")
+	@FindBy(xpath="//button[contains(text(), 'Ressources ')]")
 	WebElement ongletRessourcesMenuHaut;
 	
 	// Onglet Coût
-	@FindBy(xpath="//button[contains(text(), 'Coût')]")
+	@FindBy(xpath="//button[contains(text(), 'Coût ')]")
 	WebElement ongletCoutMenuHaut;
 	
 	// Onglet configuration 
-	@FindBy(xpath="//button[contains(text(), 'Configuration')]")
+	@FindBy(xpath="//button[contains(text(), 'Configuration ')]")
 	WebElement ongletConfigurationMenuHaut;
+	
+	//_______________Sous menu _____________________________________________
+	
 	
 	// Sous menu Calendrier/Projet
 	@FindBy(xpath="//div[@class='submenu z-menu-popup z-menu-popup-shadow']/ul/li[2]//a")
@@ -69,9 +72,18 @@ public class MenuHaut {
 	@FindBy(xpath="//div[@class='submenu z-menu-popup z-menu-popup-shadow']/ul/li[3]//a")
 	WebElement ssMenuConfigurationProfilMenuHaut;
 
+	//_________________________________ Fil d'arianne ___________________________________
+	
+	
+	// Fil d'arianne "DEBUT"
+	@FindBy(xpath="//tr[@class=\"ruta\"]/td[2]")
+	WebElement filDarianneDebut;
 	
 	
 	
+	// 2 eme element file d'arianne (nom de l'onglet)//tr[@class="ruta"]//td[4]/table[2]/tbody/tr/td/table/tbody//tr/td[1]/table/tbody/tr/td/table/tbody/tr/td[3]/span
+	
+	// 3 eme element file d'arianne (nom du sous menu) //tr[@class="ruta"]//td[4]/table[2]/tbody/tr/td/table/tbody//tr/td[3]/table/tbody/tr/td/table/tbody/tr/td[3]/span
 	
 	
 }

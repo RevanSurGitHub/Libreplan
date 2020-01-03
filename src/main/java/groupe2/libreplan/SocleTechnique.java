@@ -1,6 +1,7 @@
 package groupe2.libreplan;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -31,6 +32,19 @@ public class SocleTechnique {
 		driver.close();
 	}
 	
+	
+	public static void RemplirChamp(WebElement element, String text) {
+		element.clear();
+		element.sendKeys(text);
+		
+	}
+	
+	public static void RemplirLoginMdp (WebElement elementLogin, WebElement elementMdp, String Login, String Mdp)
+	{
+		RemplirChamp(elementLogin, Login);
+		RemplirChamp(elementMdp, Mdp);
+		
+	}
 	
 	
 }
