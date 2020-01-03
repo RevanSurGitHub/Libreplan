@@ -47,12 +47,12 @@ public class CreerProfilPage {
 	
 	//Nom Colonne "nom rôle"
 	
-	@FindBy(xpath = "//div[@class='z-grid']/div[contains(@style,'width: 636px')]/table/tbody[2]/tr[@class='z-columns']/th[1]")
+	@FindBy(xpath = "//fieldset//div[1]//tbody[2]/tr/th[1]/div")
 	public WebElement nomRoleColonne;
 	
 	// Nom colonne "Actions"
 	
-	@FindBy(xpath = "//div[@class='z-grid']/div[contains(@style,'width: 636px')]/table/tbody[2]/tr[@class='z-columns']/th[2]")
+	@FindBy(xpath = "//fieldset//div[1]//tbody[2]/tr/th[2]/div")
 	public WebElement actionsColonne;
 	
 	// Bouton Enregistrer
