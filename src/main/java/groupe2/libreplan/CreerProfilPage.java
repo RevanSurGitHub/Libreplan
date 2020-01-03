@@ -21,7 +21,7 @@ public class CreerProfilPage {
 	
 	// Champ nom ( METTRE ZERATOR)
 	
-	@FindBy(xpath = "//tr[@class='z-row']/td[@class='z-row-inner'][2]/div[@class='z-row-cnt z-overflow-hidden']")
+	@FindBy(xpath = "//td[2]/div/input")
 	public WebElement champNomProfil;
 	
 	

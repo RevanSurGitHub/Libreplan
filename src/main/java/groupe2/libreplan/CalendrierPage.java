@@ -81,6 +81,9 @@ public class CalendrierPage {
 	@FindBy(xpath = "//div[@class='z-treecell-cnt z-overflow-hidden']/span[contains(text(),'test1')]")
 	public WebElement presenceTest1;
 	
+	//Bouton Créer une dérive
+	@FindBy(xpath = "//tr[2]/td[4]//span[1]//tr[2]/td[2]/img")
+	public WebElement boutonDerive;
 	
 	
 	
