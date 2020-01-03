@@ -21,7 +21,7 @@ public class CreerProfilPage {
 	
 	// Champ nom ( METTRE ZERATOR)
 	
-	@FindBy(xpath = "//tr[@class='z-row']/td[@class='z-row-inner'][2]/div[@class='z-row-cnt z-overflow-hidden']")
+	@FindBy(xpath = "//td[2]/div/input")
 	public WebElement champNomProfil;
 	
 	
@@ -47,12 +47,12 @@ public class CreerProfilPage {
 	
 	//Nom Colonne "nom rôle"
 	
-	@FindBy(xpath = "//div[@class='z-grid']/div[contains(@style,'width: 636px')]/table/tbody[2]/tr[@class='z-columns']/th[1]")
+	@FindBy(xpath = "//fieldset//div[1]//tbody[2]/tr/th[1]/div")
 	public WebElement nomRoleColonne;
 	
 	// Nom colonne "Actions"
 	
-	@FindBy(xpath = "//div[@class='z-grid']/div[contains(@style,'width: 636px')]/table/tbody[2]/tr[@class='z-columns']/th[2]")
+	@FindBy(xpath = "//fieldset//div[1]//tbody[2]/tr/th[2]/div")
 	public WebElement actionsColonne;
 	
 	// Bouton Enregistrer

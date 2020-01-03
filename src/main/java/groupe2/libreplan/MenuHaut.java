@@ -24,7 +24,7 @@ public class MenuHaut {
 	WebElement ongletCoutMenuHaut;
 	
 	// Onglet configuration 
-	@FindBy(xpath="//button[contains(text(),'Configuration')]")
+	@FindBy(xpath="//button[contains(text(), 'Configuration')]")
 	WebElement ongletConfigurationMenuHaut;
 	
 	//_______________Sous menu _____________________________________________
