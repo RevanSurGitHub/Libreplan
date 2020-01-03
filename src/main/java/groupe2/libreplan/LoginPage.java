@@ -14,22 +14,22 @@ public class LoginPage  {
 	// Texte "Se connecter au Systeme"
 	
 	@FindBy(xpath = "//td[contains(text(),'Accèder au système')]")
-	public WebElement TextePageLogin;
+	public WebElement yextePageLogin;
 	
 	//Champ Utilisateur 
 	
 	@FindBy(xpath = "//input[@id='textfield']")
-	public WebElement ChampUtilisateur;
+	public WebElement champUtilisateur;
 	
 	// Champ Mot De Passe
 	
 	@FindBy(xpath = "//input[@id='textfield2']")
-	public WebElement ChampPassword;
+	public WebElement champPassword;
 
 	// Bouton Se Connecter 
 	
 	@FindBy(xpath = "//input[@id='button']")
-	public WebElement BoutonSeConnecter;
+	public WebElement boutonSeConnecter;
 	
 	
 	public LoginPage(WebDriver driver) {
