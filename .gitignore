@@ -5,4 +5,8 @@ bin/
 .classpath
 .project
 pom.properties
+<<<<<<< Updated upstream
 src/test/logs/
+=======
+src/test/logs
+>>>>>>> Stashed changes
