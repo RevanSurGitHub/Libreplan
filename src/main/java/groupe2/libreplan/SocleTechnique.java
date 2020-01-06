@@ -4,10 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class SocleTechnique {
 	
 	static WebDriver driver;
+	static Logger logger = LoggerFactory.getLogger(GestionDunProfilTest.class);
 
 	public static WebDriver OpenNav (String adresseWeb, ENav navigateur) {
 
@@ -47,5 +50,9 @@ public class SocleTechnique {
 		
 	}
 	
-	
+	static public void assertTrueLogger(String message, boolean condition, Logger l) {
+        if (!condition) {
+           l.error(message);
+        }
+	}
 }
