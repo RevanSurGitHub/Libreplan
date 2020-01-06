@@ -10,6 +10,10 @@ public class CategoriesCoutPage extends MenuHaut {
 	// Pour constructeur
 	WebDriver driver ;
 	
+	// Titre de la page : Catégories de coût Liste
+	@FindBy (xpath ="//div[@class=\"z-window-embedded-cnt-noborder\"]/div[1]//div[@class=\"z-window-embedded-header\"]")
+	WebElement titreCategoriesListe ;
+	
 	// Bouton Créer
 	@FindBy (xpath = "//td[contains(text(), \"Créer\")]")
 	WebElement boutonCreer ;
