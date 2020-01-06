@@ -1,5 +1,5 @@
 /target/
-/src/test/logs/
+src/test/logs/
 bin/
 .settings
 .classpath
