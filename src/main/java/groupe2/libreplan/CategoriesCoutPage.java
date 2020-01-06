@@ -68,6 +68,10 @@ public class CategoriesCoutPage extends MenuHaut {
 	// Bouton : Ajouter une ligne (si pb xpath : //tr[3]//td[@class="z-button-cm"] )
 	@FindBy (xpath = "//div/table/tbody/tr/td/table/tbody/tr/td/span/table/tbody/tr[2]/td[2]")
 	WebElement boutonAjouterUneLigne ;
+	
+	// Tableau : ajout d'une ligne
+	@FindBy (xpath = "//div/div/div[3]/table/tbody[2]/tr")
+	WebElement contenuLigneUne;
 		
 	// Tableau : Coûts des heures > colonne : Code
 	@FindBy (xpath = "//div[@class=\"z-panel-body\"]//th[1]/div[@class=\"z-column-cnt\"]")
@@ -105,13 +109,17 @@ public class CategoriesCoutPage extends MenuHaut {
 	@FindBy (xpath = "//span[@class=\"cancel-button global-action z-button\"]//td[@class=\"z-button-cm\"]")
 	WebElement boutonAnnuler ;
 	
-	// Champ : Code Disabled dans Tableau Coûts des heures
-	@FindBy (xpath = "//div/input[@class=\"z-textbox z-textbox-disd z-textbox-text-disd\"])")
+	// Champ : Code Disabled dans Tableau Coûts des heures xpath refusé : //div/input[@class=\"z-textbox z-textbox-disd z-textbox-text-disd\"])
+	@FindBy (xpath = "//div[@class=\"z-row-cnt z-overflow-hidden\"]/input[@class=\"z-textbox z-textbox-disd z-textbox-text-disd\"]")
 	WebElement champCodeTableau ;
 	
 	// Menu déroulant : Type dans Tableau Coûts des heures
 	@FindBy (xpath = "//select")
-	WebElement selectType;
+	WebElement selectType ;
+	
+	// Menu déroulant : valeur selectionnée par défaut
+	@FindBy (xpath= "//select/option[@selected=\"selected\"]")
+	WebElement contenuTypeDefaut ;
 	
 	// Champ : Coût Horaire dans Tableau Coûts des heures
 	@FindBy (xpath = "//input[@class=\"z-decimalbox\"]")
@@ -121,9 +129,21 @@ public class CategoriesCoutPage extends MenuHaut {
 	@FindBy (xpath = "//tr[@class=\"z-row\"]/td[4]//input[@class=\"z-datebox-inp\"]")
 	WebElement champDateDeDebut ;
 	
+	// Bouton Calendrier du champ Date de début dans Tableau Coûts des heures
+	@FindBy (xpath = "//tr[@class=\"z-row\"]/td[4]//i[@class=\"z-datebox-btn\"]")
+	WebElement boutonCalendrierDebut ;
+	
 	// Champ : Date de fin dans Tableau Coûts des heures
 	@FindBy (xpath = "//tr[@class=\"z-row\"]/td[5]//input[@class=\"z-datebox-inp\"]")
 	WebElement champDateDeFin ;
+	
+	// Bouton Calendrier du champ Date de fin dans Tableau Coûts des heures //tr[@class="z-row"]/td[5]//i[@class="z-datebox-btn"]
+	@FindBy (xpath = "//tr[@class=\"z-row\"]/td[5]//i[@class=\"z-datebox-btn\"]")
+	WebElement boutonCalendrierFin ;
+	
+	// Calendrier Date de début et fin
+	@FindBy (xpath = "//div[@class=\"z-datebox-pp z-datebox-shadow\"]")
+	WebElement calendrierDebutFin ;
 	
 	// Icone : poubelle pour supprimer la ligne dans Tableau Coûts des heures
 	@FindBy (xpath  ="//span[@title=\"Supprimer\"]//img")
