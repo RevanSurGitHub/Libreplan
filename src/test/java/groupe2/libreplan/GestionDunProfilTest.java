@@ -77,29 +77,29 @@ public class GestionDunProfilTest {
 	
 		
 		// Verifier la présence du champ nom 
-		assertTrue(creerProfil.champNomProfil.isDisplayed());
+		SocleTechnique.assertTrueLogger("Le champ nom n'est pas présent",creerProfil.champNomProfil.isDisplayed(), logger);
 		logger.info("Le champ nom est présent");
 		// Verifier la présence de la liste déroulante 
-		assertTrue(creerProfil.listeDeroulante.isDisplayed());
+		SocleTechnique.assertTrueLogger("La liste déroulante n'est pas présente",creerProfil.listeDeroulante.isDisplayed(), logger);
 		logger.info("La liste déroulante est présente");
 		// Verifier la présence du champ de saisie de la liste déroulante 
-		assertTrue(creerProfil.champListeDeroulante.isDisplayed());
+		SocleTechnique.assertTrueLogger("Le champ de siasie de la liste déroulante n'es pas présent",creerProfil.champListeDeroulante.isDisplayed(), logger);
 		logger.info("Le champ de saisie de la liste déroulante est présente");
 		
 		// Vérifier la présence des colonnes du tableau 
-		assertTrue(creerProfil.actionsColonne.isDisplayed() && creerProfil.nomRoleColonne.isDisplayed());
+		SocleTechnique.assertTrueLogger("Le tableau n'a pas les deux colonnes action et nom du role",creerProfil.actionsColonne.isDisplayed() && creerProfil.nomRoleColonne.isDisplayed(), logger);
 		logger.info("Le tableau a bien deux colones: action et nom du role");
 		
 		// Verifier la présence des boutons 
-		assertTrue(creerProfil.boutonEnregistrer.isDisplayed());
+		SocleTechnique.assertTrueLogger("Le bouton enregistrer n'est pas présent",creerProfil.boutonEnregistrer.isDisplayed(), logger);
 		logger.info("Le bouton enregistrer est présent");
 		
 		// verifier la présence du bouton annuler 
-		assertTrue(creerProfil.boutonAnnuler.isDisplayed());
+		SocleTechnique.assertTrueLogger("Le bouton annulé n'est pas présent",creerProfil.boutonAnnuler.isDisplayed(), logger);
 		logger.info("Le bouton annulé est présent ");
 		
 		// Verifier la présence du bouton sauver et continuer 
-		assertTrue(creerProfil.boutonSauverEtContinuer.isDisplayed());
+		SocleTechnique.assertTrueLogger("Le bouton sauver et continuer n'est pas présent",creerProfil.boutonSauverEtContinuer.isDisplayed(), logger);
 		logger.info("Le bouton sauver et continuer est présent");
 		
 		// Saisir une valeur dans le champ nom 

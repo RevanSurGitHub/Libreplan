@@ -72,8 +72,10 @@ public class SocleTechnique {
 
 	static public void assertEqualsLogger(String message, Object expected, Object actual, Logger l)
 	{
-		if(expected != actual)
+		if(expected != actual) {
 			l.error(message);
+			throw new AssertionError(message);
+		}
 	}
 
 

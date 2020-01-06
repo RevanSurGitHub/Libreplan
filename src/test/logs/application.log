@@ -1,10 +1,7 @@
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:66 - Le tableau a bien une colonne Nom de profil
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:68 - Le tableau a bien une colonne Nom de profil
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:72 - Le bouton créer est présent
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:81 - Le champ nom est présent
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:84 - La liste déroulante est présente
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:87 - Le champ de saisie de la liste déroulante est présente
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:91 - Le tableau a bien deux colones: action et nom du role
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:95 - Le bouton enregistrer est présent
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:99 - Le bouton annulé est présent 
-2020-01-06 10:26:57 INFO  GestionDunProfilTest:103 - Le bouton sauver et continuer est présent
+2020-01-06 11:10:24 INFO  GestionDunProfilTest:81 - Le champ nom est présent
+2020-01-06 11:10:24 INFO  GestionDunProfilTest:84 - La liste déroulante est présente
+2020-01-06 11:10:24 INFO  GestionDunProfilTest:87 - Le champ de saisie de la liste déroulante est présente
+2020-01-06 11:10:24 INFO  GestionDunProfilTest:91 - Le tableau a bien deux colones: action et nom du role
+2020-01-06 11:10:24 INFO  GestionDunProfilTest:95 - Le bouton enregistrer est présent
+2020-01-06 11:10:24 INFO  GestionDunProfilTest:99 - Le bouton annulé est présent 
+2020-01-06 11:10:24 INFO  GestionDunProfilTest:103 - Le bouton sauver et continuer est présent
