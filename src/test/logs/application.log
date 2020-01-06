@@ -185,3 +185,476 @@
 2020-01-06 15:32:19 INFO  GestionDunProfilTest:91 - Le champ Client est bien vide
 2020-01-06 15:32:19 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
 2020-01-06 15:32:19 INFO  GestionDunProfilTest:96 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:58 - Le champ Nom est bien vide
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:63 - Le champ Modèle est bien vide
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:66 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:68 - Le titre de la checkbox est bien Générer le code
+2020-01-06 15:40:04 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:70 - La case Generer Code est séléctionnée
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:72 - Le champ Code est bien innaccessible
+2020-01-06 15:40:04 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:74 - Le champ Code est bien pré-rempli
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:77 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:81 - La date est bien 6 janv. 2020
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:84 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:86 - Le champ Echéance est bien vide
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:89 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:91 - Le champ Client est bien vide
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:96 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 15:40:04 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 15:40:04 INFO  GestionDunProfilTest:117 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 15:40:06 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 15:40:06 INFO  GestionDunProfilTest:119 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:58 - Le champ Nom est bien vide
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:63 - Le champ Modèle est bien vide
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:66 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:68 - Le titre de la checkbox est bien Générer le code
+2020-01-06 16:04:22 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:70 - La case Generer Code est séléctionnée
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:72 - Le champ Code est bien innaccessible
+2020-01-06 16:04:22 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:74 - Le champ Code est bien pré-rempli
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:77 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:81 - La date est bien 6 janv. 2020
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:84 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:86 - Le champ Echéance est bien vide
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:89 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:91 - Le champ Client est bien vide
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 16:04:22 INFO  GestionDunProfilTest:96 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 16:04:23 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 16:04:23 INFO  GestionDunProfilTest:117 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 16:04:24 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 16:04:24 INFO  GestionDunProfilTest:119 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 16:04:24 INFO  GestionDunProfilTest:123 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 16:04:24 INFO  GestionDunProfilTest:125 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 16:04:24 INFO  GestionDunProfilTest:127 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 16:04:24 INFO  GestionDunProfilTest:129 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 16:04:24 ERROR GestionDunProfilTest:97 - Le nom du cinquième menu vertical n'est pas Tableau de bord
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:58 - Le champ Nom est bien vide
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:63 - Le champ Modèle est bien vide
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:66 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:68 - Le titre de la checkbox est bien Générer le code
+2020-01-06 16:05:33 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:70 - La case Generer Code est séléctionnée
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:72 - Le champ Code est bien innaccessible
+2020-01-06 16:05:33 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:74 - Le champ Code est bien pré-rempli
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:77 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:81 - La date est bien 6 janv. 2020
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:84 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:86 - Le champ Echéance est bien vide
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:89 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:91 - Le champ Client est bien vide
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 16:05:33 INFO  GestionDunProfilTest:96 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 16:05:34 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 16:05:34 INFO  GestionDunProfilTest:117 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 16:05:35 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:119 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:123 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:125 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:127 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:129 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:131 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:135 - Les onglets sont affichés
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:137 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:139 - Le nom du premier onglet est bien Données générales
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien Coût
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Avancement
+2020-01-06 16:05:35 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Libellés
+2020-01-06 16:05:35 ERROR GestionDunProfilTest:97 - Le nom du premier onglet n'est pas Exigence de critère
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:58 - Le champ Nom est bien vide
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:63 - Le champ Modèle est bien vide
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:66 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:68 - Le titre de la checkbox est bien Générer le code
+2020-01-06 16:17:39 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:70 - La case Generer Code est séléctionnée
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:72 - Le champ Code est bien innaccessible
+2020-01-06 16:17:39 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:74 - Le champ Code est bien pré-rempli
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:77 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:81 - La date est bien 6 janv. 2020
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:84 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:86 - Le champ Echéance est bien vide
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:89 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:91 - Le champ Client est bien vide
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 16:17:39 INFO  GestionDunProfilTest:96 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 16:17:40 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 16:17:40 INFO  GestionDunProfilTest:117 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 16:17:41 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:119 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:123 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:125 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:127 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:129 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:131 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:135 - Les onglets sont affichés
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:137 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:139 - Le nom du premier onglet est bien Données générales
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien Coût
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Avancement
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Libellés
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Matériels
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 16:17:41 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Autorisation
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 16:57:01 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 16:57:01 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 16:57:01 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 16:57:02 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 16:57:02 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 16:57:03 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 16:57:03 INFO  GestionDunProfilTest:162 - Le bouton Enregistrer le projet est bien affiché
+2020-01-06 16:57:03 ERROR GestionDunProfilTest:97 - Le bouton Enregistrer Projet n'est pas représenté par le bonne icone
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 16:59:36 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 16:59:36 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 16:59:36 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 16:59:37 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 16:59:37 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 16:59:38 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 16:59:38 INFO  GestionDunProfilTest:162 - Le bouton Enregistrer le projet est bien affiché
+2020-01-06 16:59:38 ERROR GestionDunProfilTest:97 - Le bouton Enregistrer Projet n'est pas représenté par le bonne icone
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 17:01:25 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 17:01:25 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 17:01:25 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 17:01:26 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 17:01:26 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 17:01:47 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 17:01:47 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 17:01:47 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 17:01:48 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 17:01:48 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 17:01:48 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 17:01:48 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 17:01:49 INFO  GestionDunProfilTest:162 - Le bouton Annuler l'édition est bien affiché
+2020-01-06 17:01:49 ERROR GestionDunProfilTest:97 - Le bouton Annuler l'édition n'est pas représenté par le bonne icone
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 17:05:49 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 17:05:49 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 17:05:49 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 17:05:50 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 17:05:50 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 17:05:50 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 17:05:50 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 17:05:50 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 17:05:50 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 17:05:51 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 17:05:51 INFO  GestionDunProfilTest:162 - Le bouton Annuler l'édition est bien affiché
+2020-01-06 17:05:51 ERROR GestionDunProfilTest:97 - Le bouton Annuler l'édition n'est pas représenté par le bonne icone
+2020-01-06 17:07:48 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 17:07:49 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 17:07:49 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 17:07:49 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 17:07:49 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 17:07:50 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 17:07:50 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 17:07:51 INFO  GestionDunProfilTest:162 - Le bouton Annuler l'édition est bien affiché
+2020-01-06 17:07:51 ERROR GestionDunProfilTest:97 - Le bouton Annuler l'édition n'est pas représenté par le bonne icone
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 17:09:29 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 17:09:29 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 17:09:29 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 17:09:30 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 17:09:30 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 17:09:31 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 17:09:31 INFO  GestionDunProfilTest:162 - Le bouton Annuler l'édition est bien affiché
+2020-01-06 17:09:31 ERROR GestionDunProfilTest:97 - Le bouton Annuler l'édition n'est pas représenté par le bonne icone mais par http://localhost:8090/libreplan/common/img/ico_back.png
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 17:11:11 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 17:11:11 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 17:11:11 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 17:11:12 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 17:11:12 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 17:11:13 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:162 - Le bouton Annuler l'édition est bien affiché
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:164 - Le bouton Annuler l'édition est bien représenté par le bon icone
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:166 - Le bouton Enregistrer le projet est bien affiché
+2020-01-06 17:11:13 INFO  GestionDunProfilTest:168 - Le bouton Enregistrer le projet est bien représenté par le bon icone
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:59 - Le champ Nom est bien vide
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:64 - Le champ Modèle est bien vide
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:67 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:69 - Le titre de la checkbox est bien Générer le code
+2020-01-06 17:23:52 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:71 - La case Generer Code est séléctionnée
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:73 - Le champ Code est bien innaccessible
+2020-01-06 17:23:52 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:75 - Le champ Code est bien pré-rempli
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:78 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:82 - La date est bien 6 janv. 2020
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:87 - Le champ Echéance est bien vide
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:90 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:92 - Le champ Client est bien vide
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 17:23:52 INFO  GestionDunProfilTest:97 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 17:23:53 ERROR GestionDunProfilTest:83 - Le menu vertical Détail du projet n'est pas séléctionné
+2020-01-06 17:23:53 INFO  GestionDunProfilTest:119 - Le menu vertical Détail du projet est séléctionné
+2020-01-06 17:23:54 ERROR GestionDunProfilTest:83 - L'onglet WBS (tâches) n'est pas séléctionné
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:121 - L'onglet WBS (tâches) est séléctionné
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:126 - Le nom du premier menu vertical est bien Planification de projet
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:128 - Le nom du deuxième menu vertical est bien Détail du projet
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:130 - Le nom du troisième menu vertical est bien Chargement des ressources
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:132 - Le nom du quatième menu vertical est bien Allocation avancée
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:134 - Le nom du cinquième menu vertical est bien Tableau de bord
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:139 - Les onglets sont affichés
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:141 - Le nom du premier onglet est bien WBS (tâches)
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:143 - Le nom du premier onglet est bien Données générales
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:145 - Le nom du premier onglet est bien Coût
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:147 - Le nom du premier onglet est bien Avancement
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:149 - Le nom du premier onglet est bien Libellés
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:151 - Le nom du premier onglet est bien Exigence de critère
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:153 - Le nom du premier onglet est bien Matériels
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:155 - Le nom du premier onglet est bien Formulaires qualité des tâches
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:157 - Le nom du premier onglet est bien Autorisation
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:162 - Le bouton Annuler l'édition est bien affiché
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:164 - Le bouton Annuler l'édition est bien représenté par le bon icone
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:166 - Le bouton Enregistrer le projet est bien affiché
+2020-01-06 17:23:54 INFO  GestionDunProfilTest:168 - Le bouton Enregistrer le projet est bien représenté par le bon icone
+2020-01-06 17:23:55 INFO  GestionDunProfilTest:175 - La fenêtre d'alerte est bien affichée
+2020-01-06 17:23:55 INFO  GestionDunProfilTest:177 - Le message de l'alerte est bien conforme
+2020-01-06 17:23:55 INFO  GestionDunProfilTest:179 - Le bouton OK de l'alerte est bien affiché
+2020-01-06 17:23:55 INFO  GestionDunProfilTest:181 - Le bouton Annuler de l'alerte est bien affiché
