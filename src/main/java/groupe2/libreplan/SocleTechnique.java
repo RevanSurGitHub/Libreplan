@@ -1,5 +1,6 @@
 package groupe2.libreplan;
 
+import org.junit.Assert;
 import org.junit.ComparisonFailure;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -72,9 +73,11 @@ public class SocleTechnique {
 
 	static public void assertEqualsLogger(String message, Object expected, Object actual, Logger l)
 	{
-		if(expected != actual) {
+		if(!(expected.equals(actual))){
 			l.error(message);
 			throw new AssertionError(message);
+			//Assert.fail();
+			
 		}
 	}
 
