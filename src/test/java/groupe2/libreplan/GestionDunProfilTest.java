@@ -108,10 +108,11 @@ public class GestionDunProfilTest {
 		creerProfil.champNomProfil.sendKeys("Zerator");
 		
 		// Choisir un role dans la liste déroulante 
-		creerProfil.listeDeroulante.click();
-		Thread.sleep(300);
 		Actions b = new Actions(driver);
+		creerProfil.listeDeroulante.click();
+
 		b.moveToElement(creerProfil.choixMenuDeroulant1).click().build().perform();
+
 		
 		
 		// Cliquer sur le bouton ajouer un role 
