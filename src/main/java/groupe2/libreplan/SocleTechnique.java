@@ -1,5 +1,9 @@
 package groupe2.libreplan;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 import org.junit.Assert;
 import org.junit.ComparisonFailure;
 import org.openqa.selenium.WebDriver;
@@ -51,9 +55,25 @@ public class SocleTechnique {
 		boutonConnect.click();
 
 	}
+	
+	public static String DateJour() {
+		String format = "d MMM yyyy"; 
+		java.text.SimpleDateFormat formater = new java.text.SimpleDateFormat(format); 
+		java.util.Date date = new java.util.Date(); 
+		String datD = formater.format(date);
+		return datD;
+	}
+	
+	public static String DateFuture(int jours) {
+		//utiliser le calendrier par défaut
+        Calendar calendar = Calendar.getInstance();
+        //définir le format de la date
+        SimpleDateFormat datD = new SimpleDateFormat("d MMM yyyy");
+        calendar.add(Calendar.DATE, jours);
+        String datF = datD.format(calendar.getTime());
+        return datF;
 
-
-
+    }
 
 
 	// --------------------- Assertion maison avec logger ------------------------------

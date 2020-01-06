@@ -1,0 +1,187 @@
+2020-01-06 14:05:00 INFO  GestionDunProfilTest:50 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:10:28 INFO  GestionDunProfilTest:50 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:10:28 INFO  GestionDunProfilTest:52 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:10:28 ERROR GestionDunProfilTest:77 - Le titre du champ n'est pas Code
+2020-01-06 14:11:33 INFO  GestionDunProfilTest:50 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:11:33 INFO  GestionDunProfilTest:52 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:11:33 INFO  GestionDunProfilTest:54 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 14:11:33 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 14:11:33 INFO  GestionDunProfilTest:58 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 14:11:33 INFO  GestionDunProfilTest:60 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 14:11:33 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:51 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:53 - Le champ Nom est bien vide
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:58 - Le champ Modèle est bien vide
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:63 - Le titre de la checkbox est bien Générer le code
+2020-01-06 14:45:50 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:65 - La case Generer Code est séléctionnée
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:67 - Le champ Code est bien innaccessible
+2020-01-06 14:45:50 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:69 - Le champ Code est bien pré-rempli
+2020-01-06 14:45:50 INFO  GestionDunProfilTest:72 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 14:45:50 ERROR GestionDunProfilTest:77 - La date n'est pas6 janv. 2020
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:51 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:53 - Le champ Nom est bien vide
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:58 - Le champ Modèle est bien vide
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:63 - Le titre de la checkbox est bien Générer le code
+2020-01-06 14:46:54 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:65 - La case Generer Code est séléctionnée
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:67 - Le champ Code est bien innaccessible
+2020-01-06 14:46:54 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:69 - Le champ Code est bien pré-rempli
+2020-01-06 14:46:54 INFO  GestionDunProfilTest:72 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 14:46:54 ERROR GestionDunProfilTest:77 - La date n'est pas 6 janv. 2020
+2020-01-06 14:48:10 INFO  GestionDunProfilTest:51 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:53 - Le champ Nom est bien vide
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:58 - Le champ Modèle est bien vide
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:63 - Le titre de la checkbox est bien Générer le code
+2020-01-06 14:48:11 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:65 - La case Generer Code est séléctionnée
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:67 - Le champ Code est bien innaccessible
+2020-01-06 14:48:11 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:69 - Le champ Code est bien pré-rempli
+2020-01-06 14:48:11 INFO  GestionDunProfilTest:72 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 14:48:11 ERROR GestionDunProfilTest:77 - La date n'est pas 6 janv. 2020
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:51 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:53 - Le champ Nom est bien vide
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:58 - Le champ Modèle est bien vide
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:63 - Le titre de la checkbox est bien Générer le code
+2020-01-06 14:51:38 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:65 - La case Generer Code est séléctionnée
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:67 - Le champ Code est bien innaccessible
+2020-01-06 14:51:38 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:69 - Le champ Code est bien pré-rempli
+2020-01-06 14:51:38 INFO  GestionDunProfilTest:72 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 14:51:38 ERROR GestionDunProfilTest:77 - La date n'est pas 6 janv. 2020
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:53 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:55 - Le champ Nom est bien vide
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:58 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:60 - Le champ Modèle est bien vide
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:63 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:65 - Le titre de la checkbox est bien Générer le code
+2020-01-06 14:53:43 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:67 - La case Generer Code est séléctionnée
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:69 - Le champ Code est bien innaccessible
+2020-01-06 14:53:43 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:71 - Le champ Code est bien pré-rempli
+2020-01-06 14:53:43 INFO  GestionDunProfilTest:74 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 14:53:43 ERROR GestionDunProfilTest:77 - La date n'est pas 6 janv. 2020
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:51 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:53 - Le champ Nom est bien vide
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:58 - Le champ Modèle est bien vide
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:63 - Le titre de la checkbox est bien Générer le code
+2020-01-06 14:58:21 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:65 - La case Generer Code est séléctionnée
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:67 - Le champ Code est bien innaccessible
+2020-01-06 14:58:21 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:69 - Le champ Code est bien pré-rempli
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:72 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:79 - La date est bien 6 janv. 2020
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:82 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:85 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 14:58:21 INFO  GestionDunProfilTest:88 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:51 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:53 - Le champ Nom est bien vide
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:58 - Le champ Modèle est bien vide
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:63 - Le titre de la checkbox est bien Générer le code
+2020-01-06 15:05:48 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:65 - La case Generer Code est séléctionnée
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:67 - Le champ Code est bien innaccessible
+2020-01-06 15:05:48 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:69 - Le champ Code est bien pré-rempli
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:72 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:79 - La date est bien 6 janv. 2020
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:82 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:84 - Le champ Echéance est bien vide
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:87 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:89 - Le champ Client est bien vide
+2020-01-06 15:05:48 INFO  GestionDunProfilTest:92 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 15:05:48 ERROR GestionDunProfilTest:77 - Le menu déroulant Calendrier n'est pas positionné sur Default
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:51 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:53 - Le champ Nom est bien vide
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:58 - Le champ Modèle est bien vide
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:63 - Le titre de la checkbox est bien Générer le code
+2020-01-06 15:06:51 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:65 - La case Generer Code est séléctionnée
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:67 - Le champ Code est bien innaccessible
+2020-01-06 15:06:51 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:69 - Le champ Code est bien pré-rempli
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:72 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:79 - La date est bien 6 janv. 2020
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:82 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:84 - Le champ Echéance est bien vide
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:87 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:89 - Le champ Client est bien vide
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:92 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 15:06:51 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:52 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:54 - Le champ Nom est bien vide
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:57 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:59 - Le champ Modèle est bien vide
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:62 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:64 - Le titre de la checkbox est bien Générer le code
+2020-01-06 15:12:18 ERROR GestionDunProfilTest:63 - La case Generer Code n'est pas séléctionnée
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:66 - La case Generer Code est séléctionnée
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:68 - Le champ Code est bien innaccessible
+2020-01-06 15:12:18 ERROR GestionDunProfilTest:70 - Le champ Code est vide
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:70 - Le champ Code est bien pré-rempli
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:73 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:80 - La date est bien 6 janv. 2020
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:83 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:85 - Le champ Echéance est bien vide
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:88 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:90 - Le champ Client est bien vide
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:93 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 15:12:18 INFO  GestionDunProfilTest:95 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:58 - Le champ Nom est bien vide
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:63 - Le champ Modèle est bien vide
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:66 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:68 - Le titre de la checkbox est bien Générer le code
+2020-01-06 15:31:59 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:70 - La case Generer Code est séléctionnée
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:72 - Le champ Code est bien innaccessible
+2020-01-06 15:31:59 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:74 - Le champ Code est bien pré-rempli
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:77 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:81 - La date est bien 6 janv. 2020
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:84 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:86 - Le champ Echéance est bien vide
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:89 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:91 - Le champ Client est bien vide
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 15:31:59 INFO  GestionDunProfilTest:96 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:56 - Dans la fenêtre de création de projet le titre du premier champ est bien Nom
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:58 - Le champ Nom est bien vide
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:61 - Dans la fenêtre de création de projet le titre du deuxième champ est bien Modèle
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:63 - Le champ Modèle est bien vide
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:66 - Dans la fenêtre de création de projet le titre du troisième champ est bien Code
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:68 - Le titre de la checkbox est bien Générer le code
+2020-01-06 15:32:19 ERROR GestionDunProfilTest:83 - La case Generer Code n'est pas séléctionnée
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:70 - La case Generer Code est séléctionnée
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:72 - Le champ Code est bien innaccessible
+2020-01-06 15:32:19 ERROR GestionDunProfilTest:90 - Le champ Code est vide
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:74 - Le champ Code est bien pré-rempli
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:77 - Dans la fenêtre de création de projet le titre du quatrième champ est bien Date de début
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:81 - La date est bien 6 janv. 2020
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:84 - Dans la fenêtre de création de projet le titre du cinquième champ est bien Echéance
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:86 - Le champ Echéance est bien vide
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:89 - Dans la fenêtre de création de projet le titre du sixième champ est bien Client
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:91 - Le champ Client est bien vide
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:94 - Dans la fenêtre de création de projet le titre du septième champ est bien Calendrier
+2020-01-06 15:32:19 INFO  GestionDunProfilTest:96 - Dans la fenêtre de création de projet le menu déroulant Calendrier est bien positionné sur Default
