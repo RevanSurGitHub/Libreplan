@@ -64,8 +64,47 @@ public class AccueilPage extends MenuHaut {
 	@FindBy (xpath="//td[text()='Annuler']")
 	WebElement buttonAnnuler;
 	
+	@FindBy (xpath="//div[1]/div/table//tr[3]//tr[1]/td/span//td[@class='z-button-cm']")
+	WebElement menuPlanificationProjet;
 	
+	@FindBy (xpath="//tr[5]//td[@class='z-button-cm']")
+	WebElement menuDetailProjet;
 	
+	@FindBy (xpath="//tr[9]//td[@class='z-button-cm']")
+	WebElement menuChargementRessources;
+	
+	@FindBy (xpath="//tr[17]//td[@class='z-button-cm']")
+	WebElement menuAllocationAvance;
+	
+	@FindBy (xpath="//tr[21]//td[@class='z-button-cm']")
+	WebElement menuTableauBord;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[1]//span")
+	WebElement ongletWBS;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[2]//span")
+	WebElement ongletDonneesGenerales;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[3]//span")
+	WebElement ongletCout;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[4]//span")
+	WebElement ongletAvancement;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[5]//span")
+	WebElement ongletLibelles;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[6]//span")
+	WebElement ongletExigenceCritere;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[7]//span")
+	WebElement ongletMateriels;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[8]//span")
+	WebElement ongletFormulaireQualite;
+	
+	@FindBy (xpath="//div[2]/div/div/div[1]/div[3]/ul/li[9]//span")
+	WebElement ongletAutorisation;
 	
 	
 	public AccueilPage(WebDriver driver) {
