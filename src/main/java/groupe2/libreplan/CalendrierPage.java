@@ -13,10 +13,11 @@ public class CalendrierPage {
 	
 	// Nom Page
 
-	// Tableau Colonne Nom
 	
 	@FindBy(xpath = "//div[2]/div/div/div/div/div[1]/div[2]/div/div/div")
 	public WebElement nomPage;
+	
+	// Tableau Colonne Nom
 
 	@FindBy(xpath = "//tbody/tr[@class='z-treecols']/th[1]")
 	public WebElement nomColonneNom;
@@ -39,7 +40,7 @@ public class CalendrierPage {
 	//	Bouton Créer
 
 	@FindBy(xpath = "//div[3]/span//tr[2]/td[2]")
-	public WebElement BoutonCreer;
+	public WebElement boutonCreer;
 
 	// _____________________ ! CREER CALENDRIER ! _____________//
 
@@ -47,18 +48,18 @@ public class CalendrierPage {
 
 
 	@FindBy(xpath = "//td[@class='z-caption-l']")
-	public WebElement texteCreerCalendrier;
+	public WebElement nomCreerCalendrier;
 
 
 	//Texte Données de calendrier
 
 	@FindBy(xpath = "//div[3]/div/div[1]/div[3]/ul/li[1]/div/div/div/span")
-	public WebElement texteDonneesCalendrier;
+	public WebElement ongletDonneesCalendrier;
 
 	// Formulaire de calendrier
 
 	@FindBy(xpath = "//div[2]/div[3]/div/div[2]")
-	public WebElement FormulaireCalendrier;
+	public WebElement formulaireCalendrier;
 
 	// Bouton Enregistrer
 
@@ -83,7 +84,7 @@ public class CalendrierPage {
 	// _____________________ !RETOUR LISTE CALENDRIERS ! _____________//
 
 	// Verification Presence Calendrier Test1 
-	@FindBy(xpath = "//div[@class='z-treecell-cnt z-overflow-hidden']/span[contains(text(),'test1')]")
+	@FindBy(xpath = "//div[@class='z-treecell-cnt z-overflow-hidden']/span[contains(text(),'Test1')]")
 	public WebElement presenceTest1;
 
 	//Bouton Créer une dérive
@@ -115,8 +116,11 @@ public class CalendrierPage {
 	public WebElement messageAlerte;
 
 	// Message Info calendrier Enregistrement 
+	
+	
 
-	@FindBy(xpath = "//div[@class='message_INFO']")
+	@FindBy(xpath = "/html/body/div[1]/div/div/div[2]/div/div/div/div[2]/div/div/div/div/table/tbody/tr/td/table/tbody/tr/td/div/span[contains(text(),'Calendrier de base \"Test Calendrier Dérivé\" enregistré')]")
+	//div[2]/div/div/div/div/table/tbody//tbody//div
 	public WebElement messageInfoEnregistrement;
 
 	//Texte Créer Nouveau Nom calendrier
@@ -175,7 +179,7 @@ public class CalendrierPage {
 		
 		//Message Alerte "Calendrier - Test 1 existe déjà"
 
-		@FindBy(xpath = "//div[@class='message_WARNING']")
+		@FindBy(xpath = "//tr[7]/td/div/span")
 		public WebElement messageAlerteCopie;
 		
 		// Bouton Enregistrer
@@ -189,7 +193,7 @@ public class CalendrierPage {
 		
 		// Message Info calendrier Enregistrement 
 
-		@FindBy(xpath = "//div[@class='message_INFO']")
+		@FindBy(xpath = "//tr[7]/td/div/span")
 		public WebElement messageInfoEnregistrement2;
 		
 		// Verification Presence Calendrier - Test 2

@@ -8,7 +8,7 @@ import javax.security.auth.login.CredentialExpiredException;
 
 import org.junit.Before;
 import org.junit.Test;
-
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.interactions.Actions;
@@ -32,6 +32,7 @@ public class GestionDunProfilTest {
 
 	// Création d'un logger 
 	static Logger logger = LoggerFactory.getLogger(GestionDunProfilTest.class);
+	
 	
 
 	@Before
@@ -63,7 +64,7 @@ public class GestionDunProfilTest {
 		
 		// Verifier la présence des tableaux
 		SocleTechnique.assertTrueLogger("La colonne Action n'est pas affichée",profil.actionColonne.isDisplayed(), logger);
-		logger.info("Le tableau a bien une colonne Nom de profil");
+		logger.info("Le tableau a bien une colonne Actions");
 		SocleTechnique.assertTrueLogger("La colonne nom profil n'est pas affiché",profil.nomProfilColonne.isDisplayed(), logger);
 		logger.info("Le tableau a bien une colonne Nom de profil");
 		
@@ -110,13 +111,22 @@ public class GestionDunProfilTest {
 		// Choisir un role dans la liste déroulante 
 		Actions b = new Actions(driver);
 		creerProfil.listeDeroulante.click();
-
-		b.moveToElement(creerProfil.choixMenuDeroulant1).click().build().perform();
-
 		
+		// Solution de contournement du move to element 
+		creerProfil.champListeDeroulante.sendKeys(Keys.DOWN);
+		creerProfil.champListeDeroulante.sendKeys(Keys.DOWN);
+		creerProfil.champListeDeroulante.sendKeys(Keys.DOWN);
+		creerProfil.champListeDeroulante.sendKeys(Keys.DOWN);
+		creerProfil.champListeDeroulante.sendKeys(Keys.DOWN);
+		creerProfil.champListeDeroulante.sendKeys(Keys.DOWN);
+		creerProfil.champListeDeroulante.sendKeys(Keys.DOWN);
+		creerProfil.champListeDeroulante.sendKeys(Keys.RETURN);
 		
 		// Cliquer sur le bouton ajouer un role 
 		creerProfil.boutonAjouterRole.click();
+		
+		// Verifier que le nouveau role apparait dans le tableau
+		
 		
 
 		

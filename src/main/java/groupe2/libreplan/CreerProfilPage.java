@@ -70,6 +70,11 @@ public class CreerProfilPage {
 	@FindBy(xpath = "//span [@class='cancel-button global-action z-button']/table/tbody/tr/td[@class='z-button-cm']")
 	public WebElement boutonAnnuler;
 	
+	// Contenu ligne 1 tableau Nom du role 
+	@FindBy(xpath="//fieldset[@class=\"z-fieldset\"]//span[@class=\"z-label\"]")
+	public WebElement contenuTableauNomRole;
+	
+	
 	//Bouton supprimer après "ajouter un role" et pop up avec message "supprimer"
 	
 	@FindBy(xpath ="//fieldset//tr[1]//tr[2]//img")
