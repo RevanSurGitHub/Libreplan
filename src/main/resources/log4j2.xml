@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<File name="LogError" fileName="src/test/logs/error.log"
+			filePattern="src/test/logs/backups/ErrorBackup-%d{MM-dd-yy-HH-mm-ss}-%i.log.gz">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}: %L - %m%n
+				</Pattern>
+			</PatternLayout>
+		</File>
+		<File name="LogInfo" fileName="src/test/logs/info.log"
+			filePattern="src/test/logs/backups/InfoBackup-%d{MM-dd-yy-HH-mm-ss}-%i.log.gz">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}: %L - %m%n
+				</Pattern>
+			</PatternLayout>
+		</File>
+	</Appenders>
+	<Loggers>
+		<Root level="trace">
+			<AppenderRef ref="LogError" level="ERROR" />
+			<AppenderRef ref="LogInfo" level="INFO" />
+		</Root>
+	</Loggers>
+</Configuration>
