@@ -9,6 +9,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class CategoriesCoutTest {
 
@@ -22,6 +24,9 @@ public class CategoriesCoutTest {
 	String MDP = "admin";
 
 	String adresse = "http://localhost:8090/libreplan/common/layout/login.zul";
+	
+	// Création d'un logger 
+	static Logger logger = LoggerFactory.getLogger(CategoriesCoutTest.class);
 	
 	@Before
 	public void OuvrirNavEtConnexion ()
@@ -55,13 +60,17 @@ public class CategoriesCoutTest {
 		// Affichage de la page : Catégories de coût Liste
 		// La page contient : un tableau avec les colonnes suivantes : Nom de catégorie, Activé, Actions
 		// un bouton [Créer]
-		assertTrue(categoriesCout.titreCategoriesListe.isDisplayed());
-		assertTrue(categoriesCout.titreColonneNomCategorie.isDisplayed());
-		assertTrue(categoriesCout.titreColonneActive.isDisplayed());
-		assertTrue(categoriesCout.titreColonneActions.isDisplayed());
-		assertTrue(categoriesCout.boutonCreer.isDisplayed());
-		
-		
+		SocleTechnique.assertTrueLogger("Le titre de la page : 'Catégories de coût Liste' n'apparaît pas", categoriesCout.titreCategoriesListe.isDisplayed(), logger);
+		SocleTechnique.assertEqualsLogger("Le titre de la colonne : 'Nom de catégorie' n'apparaît pas", "Nom de catégorie", categoriesCout.titreColonneNomCategorie.getText(), logger);
+		SocleTechnique.assertEqualsLogger("Le titre de la colonne : 'Activé' n'apparaît pas", "Activé", categoriesCout.titreColonneActive.getText(), logger);
+		SocleTechnique.assertEqualsLogger("Le titre de la colonne : 'Actions' n'apparaît pas", "Actions", categoriesCout.titreColonneActions.getText(), logger);
+		SocleTechnique.assertTrueLogger("Le bouton : 'Créer' n'apparaît pas", categoriesCout.boutonCreer.isDisplayed(), logger);
+
+		// Vérification du fil d'Ariane : DEBUT > Coût > Catégories de coût
+		SocleTechnique.assertTrueLogger("La partie 1 / 3 du fil d'Ariane : 'Début', ne s'affiche pas", accueil.filDarianneDebut.isDisplayed(), logger);
+		SocleTechnique.assertEqualsLogger("La partie 2 / 3 du fil d'Ariane : 'Coût', ne s'affiche pas", "Coût", accueil.filDarianneNomDonglet.getText(), logger);
+		SocleTechnique.assertEqualsLogger("La partie  / 3 du fil d'Ariane : 'Catégories de coût', ne s'affiche pas", "Catégories de coût", accueil.filDarianneNomSSMenu.getText(), logger);
+
 	}
 
 

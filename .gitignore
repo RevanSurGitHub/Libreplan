@@ -4,3 +4,4 @@ bin/
 .classpath
 .project
 pom.properties
+/src/test/logs/

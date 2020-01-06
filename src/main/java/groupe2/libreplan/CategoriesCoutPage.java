@@ -18,16 +18,16 @@ public class CategoriesCoutPage extends MenuHaut {
 	@FindBy (xpath = "//td[contains(text(), \"Créer\")]")
 	WebElement boutonCreer ;
 	
-	// Titre colonne 1 : Nom de catégorie
-	@FindBy (xpath = "//div[@class=\"clickable-rows z-grid\"]//th[1]//div[@class=\"z-column-sort-img\"]")
+	// Titre colonne 1 : Nom de catégorie 
+	@FindBy (xpath = "//div[@class=\"clickable-rows z-grid\"]//th[1]//div[@class=\"z-column-cnt\"]") 
 	WebElement titreColonneNomCategorie ;
 	
 	// Titre colonne 1 : Activé
-	@FindBy (xpath = "//div[@class=\"clickable-rows z-grid\"]//th[2]//div[@class=\"z-column-sort-img\"]")
+	@FindBy (xpath = "//div[@class=\"clickable-rows z-grid\"]//th[2]//div[@class=\"z-column-cnt\"]")
 	WebElement titreColonneActive ;
 	
 	// Titre colonne 1 : Actions
-	@FindBy (xpath = "//div[@class=\"clickable-rows z-grid\"]//th[3]//div[@class=\"z-column-sort-img\"]")
+	@FindBy (xpath = "//div[@class=\"clickable-rows z-grid\"]//th[3]//div[@class=\"z-column-cnt\"]")
 	WebElement titreColonneActions ;
 	
 	
