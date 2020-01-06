@@ -10,8 +10,13 @@ public class CalendrierPage {
 	WebDriver driver;
 
 	// _____________________ ! LISTE CALENDRIERS ! _____________//
+	
+	// Nom Page
 
 	// Tableau Colonne Nom
+	
+	@FindBy(xpath = "//div[2]/div/div/div/div/div[1]/div[2]/div/div/div")
+	public WebElement nomPage;
 
 	@FindBy(xpath = "//tbody/tr[@class='z-treecols']/th[1]")
 	public WebElement nomColonneNom;

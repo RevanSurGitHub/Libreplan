@@ -13,6 +13,8 @@ import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class GestionDunProfilTest {
 
@@ -28,6 +30,9 @@ public class GestionDunProfilTest {
 
 	String adresse = "http://localhost:8090/libreplan/common/layout/login.zul";
 
+	// Création d'un logger 
+	static Logger logger = LoggerFactory.getLogger(GestionDunProfilTest.class);
+	
 
 	@Before
 	public void OuvrirNavEtConnexion ()
@@ -57,14 +62,14 @@ public class GestionDunProfilTest {
 		profil = new ProfilPage(driver);
 		
 		// Verifier la présence des tableaux
-		assertTrue(profil.actionColonne.isDisplayed());
-		System.out.println("Le tableau a bien une colonne Action");
+		SocleTechnique.assertTrueLogger("La colonne Action n'est pas affichée",profil.actionColonne.isDisplayed(), logger);
+		logger.info("Le tableau a bien une colonne Nom de profil");
 		assertTrue(profil.nomProfilColonne.isDisplayed());
-		System.out.println("Le tableau a bien une colonne Nom de profil");
+		logger.info("Le tableau a bien une colonne Nom de profil");
 		
 		//Verifier la présence du bouton créer 
 		assertTrue(profil.boutonCreer.isDisplayed());
-		System.out.println("Le bouton créer est présent");
+		logger.info("Le bouton créer est présent");
 		
 		// Cliquer sur le bouton créer 
 		profil.boutonCreer.click();
@@ -73,29 +78,29 @@ public class GestionDunProfilTest {
 		
 		// Verifier la présence du champ nom 
 		assertTrue(creerProfil.champNomProfil.isDisplayed());
-		System.out.println("Le champ nom est présent");
+		logger.info("Le champ nom est présent");
 		// Verifier la présence de la liste déroulante 
 		assertTrue(creerProfil.listeDeroulante.isDisplayed());
-		System.out.println("La liste déroulante est présente");
+		logger.info("La liste déroulante est présente");
 		// Verifier la présence du champ de saisie de la liste déroulante 
 		assertTrue(creerProfil.champListeDeroulante.isDisplayed());
-		System.out.println("Le champ de saisie de la liste déroulante est présente");
+		logger.info("Le champ de saisie de la liste déroulante est présente");
 		
 		// Vérifier la présence des colonnes du tableau 
 		assertTrue(creerProfil.actionsColonne.isDisplayed() && creerProfil.nomRoleColonne.isDisplayed());
-		System.out.println("Le tableau a bien deux colones: action et nom du role");
+		logger.info("Le tableau a bien deux colones: action et nom du role");
 		
 		// Verifier la présence des boutons 
 		assertTrue(creerProfil.boutonEnregistrer.isDisplayed());
-		System.out.println("Le bouton enregistrer est présent");
+		logger.info("Le bouton enregistrer est présent");
 		
 		// verifier la présence du bouton annuler 
 		assertTrue(creerProfil.boutonAnnuler.isDisplayed());
-		System.out.println("Le bouton annulé est présent ");
+		logger.info("Le bouton annulé est présent ");
 		
 		// Verifier la présence du bouton sauver et continuer 
 		assertTrue(creerProfil.boutonSauverEtContinuer.isDisplayed());
-		System.out.println("Le bouton sauver et continuer est présent");
+		logger.info("Le bouton sauver et continuer est présent");
 		
 		// Saisir une valeur dans le champ nom 
 		//SocleTechnique.RemplirChamp(creerProfil.champNomProfil, "Zerator");
