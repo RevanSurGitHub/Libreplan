@@ -35,7 +35,7 @@ public class CategoriesCoutPage extends MenuHaut {
 	
 	// Titre page Créer Catégorie de coût
 	@FindBy (xpath = "//td[@class=\"z-caption-l\"]")
-	WebElement contenuTitreCreerCategorie ;
+	WebElement titreCreerCategorie ;
 	
 	// Titre onglet : Donnée de catégorie
 	@FindBy (xpath = "//span[@class=\"z-tab-text\"]")

@@ -1,8 +1,8 @@
 /target/
-/src/test/logs/
+src/test/logs/
 bin/
 .settings
 .classpath
 .project
 pom.properties
-/src/test/logs/
+src/test/logs/

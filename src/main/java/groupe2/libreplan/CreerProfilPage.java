@@ -88,12 +88,12 @@ public class CreerProfilPage {
 	
 	
 	// Choix menu déroulant 1 
-	@FindBy(xpath="//td[contains(text(), 'importer des projets')]")
-	public WebElement choixMenuDeroulant1;
+	@FindBy(xpath="//tr[contains(text(), 'importer des projets')]")
+	public WebElement choixMenuDeroulant2;
 
 	// Choix menu déroulant 2
-	@FindBy(xpath="//td[contains(text(), 'Unités de matériel')]")
-	public WebElement choixMenuDeroulant2;
+	@FindBy(xpath="//tr[contains(text(), 'Unités de matériel')]")
+	public WebElement choixMenuDeroulant1;
 	
 	
 	public CreerProfilPage(WebDriver driver) {

@@ -67,10 +67,40 @@ public class CategoriesCoutTest {
 		SocleTechnique.assertTrueLogger("Le bouton : 'Créer' n'apparaît pas", categoriesCout.boutonCreer.isDisplayed(), logger);
 
 		// Vérification du fil d'Ariane : DEBUT > Coût > Catégories de coût
-		SocleTechnique.assertTrueLogger("La partie 1 / 3 du fil d'Ariane : 'Début', ne s'affiche pas", accueil.filDarianneDebut.isDisplayed(), logger);
-		SocleTechnique.assertEqualsLogger("La partie 2 / 3 du fil d'Ariane : 'Coût', ne s'affiche pas", "Coût", accueil.filDarianneNomDonglet.getText(), logger);
-		SocleTechnique.assertEqualsLogger("La partie  / 3 du fil d'Ariane : 'Catégories de coût', ne s'affiche pas", "Catégories de coût", accueil.filDarianneNomSSMenu.getText(), logger);
+		SocleTechnique.assertTrueLogger("La partie 1 / 3 du fil d'Ariane : 'Début' ne s'affiche pas", accueil.filDarianneDebut.isDisplayed(), logger);
+		SocleTechnique.assertEqualsLogger("La partie 2 / 3 du fil d'Ariane : 'Coût' ne s'affiche pas", "Coût", accueil.filDarianneNomDonglet.getText(), logger);
+		SocleTechnique.assertEqualsLogger("La partie  / 3 du fil d'Ariane : 'Catégories de coût' ne s'affiche pas", "Catégories de coût", accueil.filDarianneNomSSMenu.getText(), logger);
 
+		// Cliquer sur bouton Créer
+		categoriesCout.boutonCreer.click();
+		
+		// Vérification de l'affichage de la page : Créer Catégorie de coût + onglet : Données de catégorie, avec :
+		SocleTechnique.assertTrueLogger("La page : 'Créer Catégorie de coût' ne s'affiche pas", categoriesCout.titreCreerCategorie.isDisplayed(), logger);
+		SocleTechnique.assertTrueLogger("L'onglet : 'Données de catégorie' ne s'affiche pas", categoriesCout.titreOnglet.isDisplayed(), logger);	
+		
+		// champ de saisie : Code, grisé, renseigné avec une valeur par défaut non modifiable
+		SocleTechnique.assertTrueLogger("Le champ de saisie : 'Code' n'apparaît pas", categoriesCout.champCodeDisabled.isDisplayed(), logger);
+		SocleTechnique.assertFalseLogger("Le champ : Code est modificable par défaut", categoriesCout.champCodeDisabled.isEnabled(), logger);
+		
+		// associé à une checkbox : Générer le code, cochée par défaut
+		SocleTechnique.assertTrueLogger("La checbox : 'Générer le code' n'apparaît pas", categoriesCout.cbGenererLeCode.isDisplayed(), logger);
+		SocleTechnique.assertTrueLogger("La checbox : 'Générer le code' n'apparaît pas", categoriesCout.cbGenererLeCode.isSelected() , logger);
+
+		// champ de saisie : Nom, vide
+		SocleTechnique.assertTrueLogger("Le champ : 'Nom' n'apparaît pas", categoriesCout.champNom.isDisplayed(), logger);
+//		SocleTechnique.assertTrueLogger("Le champ : 'Nom' n'est pas vide", categoriesCout.champNom , logger);
+		
+		// checkbox : Activé, cochée par défaut
+		// bloc : Coûts des heures contenant :
+			// bouton [Ajouter une ligne]
+			// tableau vide avec les colonnes : Code, Type, Coût horaire, Date de début, Date de fin, Opérations
+		// 3 boutons : Enregister, Sauver et continuer, Annuler
+		
+		
+		
+		
+		
+		
 	}
 
 
