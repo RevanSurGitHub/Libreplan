@@ -64,17 +64,17 @@ public class GestionDunProfilTest {
 		// Verifier la présence des tableaux
 		SocleTechnique.assertTrueLogger("La colonne Action n'est pas affichée",profil.actionColonne.isDisplayed(), logger);
 		logger.info("Le tableau a bien une colonne Nom de profil");
-		assertTrue(profil.nomProfilColonne.isDisplayed());
+		SocleTechnique.assertTrueLogger("La colonne nom profil n'est pas affiché",profil.nomProfilColonne.isDisplayed(), logger);
 		logger.info("Le tableau a bien une colonne Nom de profil");
 		
 		//Verifier la présence du bouton créer 
-		assertTrue(profil.boutonCreer.isDisplayed());
+		SocleTechnique.assertTrueLogger("Le bouton créer n'est pas présent",profil.boutonCreer.isDisplayed(), logger);
 		logger.info("Le bouton créer est présent");
 		
 		// Cliquer sur le bouton créer 
 		profil.boutonCreer.click();
 		creerProfil = new CreerProfilPage(driver);
-		
+	
 		
 		// Verifier la présence du champ nom 
 		assertTrue(creerProfil.champNomProfil.isDisplayed());

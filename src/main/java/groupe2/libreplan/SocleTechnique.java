@@ -1,5 +1,6 @@
 package groupe2.libreplan;
 
+import org.junit.ComparisonFailure;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class SocleTechnique {
-	
+
 	static WebDriver driver;
 	static Logger logger = LoggerFactory.getLogger(GestionDunProfilTest.class);
 
@@ -30,29 +31,55 @@ public class SocleTechnique {
 			return null;
 		}
 	}
-	
+
 	public static void CloseNav(WebDriver driver) {
 		driver.close();
 	}
-	
-	
+
+
 	public static void RemplirChamp(WebElement element, String text) {
 		element.clear();
 		element.sendKeys(text);
-		
+
 	}
-	
+
 	public static void RemplirLoginMdp (WebElement elementLogin, WebElement elementMdp, WebElement boutonConnect, String Login, String Mdp)
 	{
 		RemplirChamp(elementLogin, Login);
 		RemplirChamp(elementMdp, Mdp);
 		boutonConnect.click();
-		
+
 	}
-	
+
+
+
+
+
+	// --------------------- Assertion maison avec logger ------------------------------
+
 	static public void assertTrueLogger(String message, boolean condition, Logger l) {
-        if (!condition) {
-           l.error(message);
-        }
+		if (!condition) {
+			l.error(message);
+		}
 	}
+
+
+	static public void assertFalseLogger(String message, boolean condition, Logger l) {
+		if (condition) {
+			l.error(message);
+		}
+	}
+
+	static public void assertEqualsLogger(String message, Object expected, Object actual, Logger l)
+	{
+		if(expected != actual)
+			l.error(message);
+	}
+
+
+
+
+
+
+
 }
