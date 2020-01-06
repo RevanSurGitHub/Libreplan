@@ -1,7 +1,9 @@
 package groupe2.libreplan;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class CreerParticipantPage extends MenuHaut {
 	
@@ -137,4 +139,10 @@ public class CreerParticipantPage extends MenuHaut {
 	@FindBy (xpath ="//div[2]/div[2]//tr[4]/td[2]/div/span")
 	WebElement champEmail;	
 
+	public CreerParticipantPage (WebDriver driver) {
+        super();
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+	
 }
