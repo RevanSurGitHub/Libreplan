@@ -7,17 +7,21 @@ import org.openqa.selenium.support.PageFactory;
 
 public class ListeProjetPage extends MenuHaut {
 
-	//Menu vertical Planification Projet
-	@FindBy (xpath="//div[1]/div/table//tr[3]//tr[1]/td/span//td[@class='z-button-cm']")
-	WebElement menuPlanificationProjet;
+	//Menu vertical Liste Projet
+	@FindBy (xpath="//tr[5]//td[@class='z-button-cm']")
+	WebElement menuListeProjet;
 	
 	//Tableau présentant la liste des projets
 	@FindBy (xpath="//span//div[@class='z-center-body']")
 	WebElement tableProjet;
 	
-	//Nom du premier projet du tableau
-	@FindBy (xpath="//td[2]/div/span[@class='z-label']")
+	//Code du premier projet du tableau
+	@FindBy (xpath="//td[1]/div/span[@class='z-label']")
 	WebElement textNomProjet;
+	
+	//Code du premier projet du tableau
+	@FindBy (xpath="//td[2]/div/span[@class='z-label']")
+	WebElement textCodeProjet;
 	
 	//Date de Debut du premier projet du tableau
 	@FindBy (xpath="//td[3]/div/span[@class='z-label']")

@@ -5,7 +5,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -27,7 +29,7 @@ public class CreerProjetTest {
 	String adresse = "http://localhost:8090/libreplan/common/layout/login.zul";
 	
 	// Création d'un logger 
-		static Logger logger = LoggerFactory.getLogger(GestionDunProfilTest.class);
+		static Logger logger = LoggerFactory.getLogger(CreerProjetTest.class);
 		
 
 		@Before
@@ -181,11 +183,83 @@ public class CreerProjetTest {
 			logger.info("Le bouton Annuler de l'alerte est bien affiché");
 			
 			
-			//_______________Step 7_______________ 
+			//_______________Step 8_______________ 
 			//Cliquer sur le bouton annuler de l'alerte annuler l'édition
 			detailProjet.buttonAlertAnnuler.click();
-			//Demander à Arielle !!!!!//SocleTechnique.assertFalseLogger("La fenêtre d'alerte est toujours affichée", detailProjet.alertSortie.isDisplayed(), logger);
-			//logger.info("La fenêtre d'alerte est bien fermée");
+			SocleTechnique.assertFalseLogger("La fenêtre d'alerte est toujours affichée", detailProjet.iframeAlert.isDisplayed(), logger);
+			logger.info("La fenêtre d'alerte est bien fermée");
+			//Vérifier les élements selectionné dans les menu verticaux et les onglets horizontaux
+			SocleTechnique.assertTrueLogger("Le menu vertical Détail du projet n'est pas séléctionné", detailProjet.menuDetailProjet.isSelected(), logger);
+			logger.info("Le menu vertical Détail du projet est séléctionné");
+			SocleTechnique.assertTrueLogger("L'onglet WBS (tâches) n'est pas séléctionné", detailProjet.ongletWBS.isSelected(), logger);
+			logger.info("L'onglet WBS (tâches) est séléctionné");
+			
+			//_______________Step 9_______________ 
+			//Cliquer sur le bouton annuler l'édition, verifier l'affichage d'une alerte et de son message
+			detailProjet.buttonAnnulerEdition.click();
+			SocleTechnique.assertTrueLogger("La fenêtre d'alerte ne s'affiche pas", detailProjet.alertSortie.isDisplayed(), logger);
+			logger.info("La fenêtre d'alerte est bien affichée");
+			SocleTechnique.assertEqualsLogger("Le message de l'alerte n'est pas conforme", "Les modifications non enregistrées seront perdues. Êtes-vous sûr ?", detailProjet.alertSortie.getText(), logger);
+			logger.info("Le message de l'alerte est bien conforme");
+			SocleTechnique.assertTrueLogger("Le bouton OK de l'alerte n'est pas present", detailProjet.buttonAlertOK.isDisplayed(), logger);
+			logger.info("Le bouton OK de l'alerte est bien affiché");
+			SocleTechnique.assertTrueLogger("Le bouton Annuler de l'alerte n'est pas present", detailProjet.buttonAlertAnnuler.isDisplayed(), logger);
+			logger.info("Le bouton Annuler de l'alerte est bien affiché");
+			
+			//_______________Step 10______________
+			//Cliquer sur le bouton OK de l'alerte de sortie
+			detailProjet.buttonAlertOK.click();
+			accueil = new AccueilPage(driver);
+			SocleTechnique.assertTrueLogger("Le menu vertical Planification de projet n'est pas séléctionné", detailProjet.menuPlanificationProjet.isSelected(), logger);
+			logger.info("Le menu vertical Planification de projet est séléctionné");
+
+			//_______________Step 11______________
+			//Accès à la page liste des projets
+			Actions a = new Actions(driver);
+			a.moveToElement(accueil.ongletCalendrierMenuHaut).build().perform();
+			accueil.ssMenuCalendrierProjetMenuHaut.click();
+			listeProjet = new ListeProjetPage (driver);
+			SocleTechnique.assertTrueLogger("Le menu vertical Liste des projets n'est pas séléctionné", listeProjet.menuListeProjet.isSelected(), logger);
+			logger.info("Le menu vertical Liste des projets est bien séléctionné");
+			
+			//_______________Step 12______________
+			//Vérification des informations du projet
+			//Verification du Nom
+			SocleTechnique.assertEqualsLogger("L'information du champ Nom est incorrecte", "PROJET_TEST1", listeProjet.textNomProjet.getText(), logger);
+			logger.info("L'information du champ Nom est correcte");
+			//Verification du Code
+			SocleTechnique.assertEqualsLogger("L'information du champ Code est incorrecte", "PRJTEST001", listeProjet.textCodeProjet.getText(), logger);
+			logger.info("L'information du champ Code est correcte");
+			//Verification de la Date de début
+			datF = SocleTechnique.DateFuture(5);
+			SocleTechnique.assertEqualsLogger("L'information du champ Date de début est incorrecte", datF, listeProjet.textDateDebutProjet.getText(), logger);
+			logger.info("L'information du champ Date de début est correcte");
+			//Verification de l'Echéance
+			datF = SocleTechnique.DateFuture(15);
+			SocleTechnique.assertEqualsLogger("L'information du champ Echeance est incorrecte", datF, listeProjet.textEcheanceProjet.getText(), logger);
+			logger.info("L'information du champ Echéance est correcte");
+			//Verification de Client
+			SocleTechnique.assertTrueLogger("Le champ Client n'est pas vide", listeProjet.textClientProjet.getText().isEmpty(), logger);
+			logger.info("Le champ Client est bien vide");
+			//Verification du Budget total
+			SocleTechnique.assertEqualsLogger("L'information du champ Budget total est incorrecte", "0 €", listeProjet.textBudgetProjet.getText(), logger);
+			logger.info("L'information du champ Budget total est correcte");
+			//Verification du Heures
+			SocleTechnique.assertEqualsLogger("L'information du champ Heures est incorrecte", "0", listeProjet.textHeuresProjet.getText(), logger);
+			logger.info("L'information du champ Heures est correcte");
+			//Verification du Etat
+			SocleTechnique.assertEqualsLogger("L'information du champ Etat est incorrecte", "PRE-VENTES", listeProjet.textEtatProjet.getText(), logger);
+			logger.info("L'information du champ Etat est correcte");
+			//Vérification des icones de la cellule opération
+			SocleTechnique.assertEqualsLogger("L'icone Modifier du champ Opération est incorrecte", "http://localhost:8090/libreplan/common/img/ico_editar1.png", listeProjet.iconeModifierProjet.getAttribute("src"), logger);
+			logger.info("L'icone Modifier du champ Operation est correcte");
+			SocleTechnique.assertEqualsLogger("L'icone Supprimer du champ Opération est incorrecte", "http://localhost:8090/libreplan/common/img/ico_borrar1.png", listeProjet.iconeSupprimerProjet.getAttribute("src"), logger);
+			logger.info("L'icone Supprimer du champ Operation est correcte");
+			SocleTechnique.assertEqualsLogger("L'icone Voir la Prevision du champ Opération est incorrecte", "http://localhost:8090/libreplan/common/img/ico_planificador1.png", listeProjet.iconePrevisionProjet.getAttribute("src"), logger);
+			logger.info("L'icone Voir la prévision du champ Operation est correcte");
+			SocleTechnique.assertEqualsLogger("L'icone Creer un Modele du champ Opération est incorrecte", "http://localhost:8090/libreplan/common/img/ico_derived1.png", listeProjet.iconeModeleProjet.getAttribute("src"), logger);
+			logger.info("L'icone Creer un Modele du champ Operation est correcte");
+			
 		}
 	
 }

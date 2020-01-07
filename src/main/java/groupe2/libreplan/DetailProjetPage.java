@@ -75,6 +75,10 @@ public class DetailProjetPage extends MenuHaut {
 	@FindBy (xpath="//div/table//td/table//table//td[3]//tr[2]//img")
 	WebElement buttonAnnulerEdition;
 	
+	//Alerte de sortie pour vérifier l'affichage
+	@FindBy (xpath="/html/body/iframe[2]")
+	WebElement iframeAlert;
+	
 	//Texte de l'alerte d'annulation d'Edition
 	@FindBy (xpath="//td//td[3]/div/span")
 	WebElement alertSortie;
